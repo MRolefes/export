@@ -54,4 +54,10 @@ class ExportModel extends BaseModel
     const FieldTypeRichText    = 'RichText';
     const FieldCheckboxes      = 'Checkboxes';
     const FieldMultiSelect     = 'MultiSelect';
+
+    /**
+     * Statuses.
+     */
+    const StatusStarted  = 'started';
+    const StatusFinished = 'finished';
 }
